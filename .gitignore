@@ -1,0 +1,11 @@
+# Office temp files
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# VS Code
+.vscode/

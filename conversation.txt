@@ -1,0 +1,548 @@
+
+Has context menu
+Chat
+
+
+
+
+Unread
+Channels
+Chats
+Meeting chats
+Unread messageLast messageGroup chatMeeting chatChatPersonal at mentionEveryone at mentionImportantUrgentDraftDraftMutedMeeting in progressMeet now in progressYou can't send messages because you are not a member of the chat.You cannot send messages to this botPrivateSharedHas context menuChannel at mentionTeam at mentionPersonal at mentionUnreadUnreadMeeting in progressUnreadChannelTeamHas pinned messagesSee moreCommunityTemporarily shownHas context menuBadged chatBadged chats
+Has context menu
+
+Teams and channels
+
+Arbitor Sports - AI infused Product use cases
+
+
+Chat
+
+Shared
+
+Notes
+
+Recap
+
+Has context menu
+
+Meet now
+
+
+11
+
+
+
+Message List
+Priyamvada Vinit Palshikar added Sonam Kanhaiyalal Goyal and Vishal Gautam Shah to the chat.
+Hi Vishal , Sonam by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:33 PM
+
+Hi Vishal, Sonam
+
+Hello by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/2 2:34 PM
+
+Hello
+Started this group chat for us to collabora... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:34 PM
+
+Started this group chat for us to collaborate on a quick engagement with an account called Arbitor Sports 
+
+
+👍
+2 Like reactions.
+2
+
+I will share an email in a bit by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:34 PM
+
+I will share an email in a bit
+
+
+👍
+1 Like reaction.
+
+Idea is to understand Arbitor sports busine... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:34 PM
+
+Idea is to understand Arbitor sports business, liase with the existing team members and arrive at a few concrete AI infused product use cases
+
+okay by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/2 2:35 PM
+
+okay
+
+
+👍
+1 Like reaction.
+
+however, use cases need to be vetted by log... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:36 PM
+
+however, use cases need to be vetted by logic on which will are feasible in terms of business applicability, are growth levers for Arbitor and not just experience shifts
+
+
+👍
+2 Like reactions.
+2
+
+Can you both please start your analysis on ... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:36 PM
+
+Can you both please start your analysis on the company?
+
+and the existing product suite? by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:36 PM
+
+and the existing product suite?
+
+Sure, will do that  by Vishal Gautam Shah
+Vishal Gautam Shah
+7/2 2:36 PM
+
+Sure, will do that 
+
+
+👍
+1 Like reaction.
+
+I will engage you with the team members sho... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/2 2:36 PM
+
+I will engage you with the team members shortly
+
+sure by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/2 2:36 PM
+
+sure
+
+Priyamvada Vinit Palshikar added Divya (Kapadia) Fisher to the chat.
+Priyamvada Vinit Palshikar added Chetan Vijay Barawkar to the chat.
+Priyamvada Vinit Palshikar added Trupti Palve to the chat.
+Priyamvada Vinit Palshikar changed the group name to Arbitor Sports - AI infused Product use cases.
+Hi  Divya   (Kapadia)   Fisher   Chetan   V... by Vishal Gautam Shah
+Vishal Gautam Shah
+7/2 5:48 PM
+
+Hi Divya (Kapadia) Fisher Chetan Vijay Barawkar, Good evening!
+
+We would like to connect with you for about 30–45 minutes to gain understanding of the work being carried out in the ArbiterSports project. Basically, we want to identify potential AI-infused use cases and opportunities which we can present to them. Please let us know a convenient time for a discussion tomorrow around 11.30 or in 2nd half, i can share the invite accordingly  
+
+
+👍
+1 Like reaction.
+
+Begin quote, Vishal Gautam Shah, 7/2/2026 5... by Chetan Vijay Barawkar
+Chetan Vijay Barawkar
+7/3 11:08 AM
+
+Vishal Gautam Shah
+7/2/2026 5:48 PM
+Hi Divya (Kapadia) Fisher Chetan Vijay Barawkar, Good evening! We would like to connect with you for about 30–45 minutes to gain understanding of the work being carried out in the ArbiterSports proje…
+Divya is on leave today.
+
+Oh, okay. If you're available, could we con... by Vishal Gautam Shah
+Vishal Gautam Shah
+7/3 11:11 AM
+
+Oh, okay. If you're available, could we connect at a time that's convenient for you? We’d like to get a high-level understanding of the project, including the scope of work, key features/modules, and the areas the team is currently working on.
+
+
+👍
+1 Like reaction.
+
+Yes, we can connect at 12 PM. by Chetan Vijay Barawkar
+Chetan Vijay Barawkar
+7/3 11:16 AM
+
+Yes, we can connect at 12 PM.
+
+
+👍
+1 Like reaction.
+
+Hi Team, hope we have had the initial overv... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 3:04 PM
+
+Hi Team, hope we have had the initial overview discussion
+
+Yes Priyamvada, we had detailed call with C... by Vishal Gautam Shah
+Vishal Gautam Shah
+7/3 3:08 PM
+
+Yes Priyamvada, we had detailed call with Chetan and the team. Dev team is working on student registration product while QA team is working on automation test cases for another product which is Arbiter360. Just wanted to confirm, should we restrict AI use case identification exercise only for the products that we are working on OR should we refer to the platform as a whole and come up with the use cases? There are few more products on which client team is working on
+
+Ideally it should be for the entire platfor... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 3:15 PM
+
+Ideally it should be for the entire platform - what do you think Trupti ? the POC whom we are planning to engage with this looks at all the products?
+
+Priyamvada   Vinit   Palshikar  Can we have... by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/3 3:21 PM
+
+Priyamvada Vinit Palshikar Can we have the access to lower instance as well?
+
+By lower instance you mean the product? by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 4:09 PM
+
+By lower instance you mean the product?
+
+what the team is working on? by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 4:09 PM
+
+what the team is working on?
+
+Begin quote, Priyamvada Vinit Palshikar, 7/... by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/3 4:14 PM
+
+Priyamvada Vinit Palshikar
+7/3/2026 4:09 PM
+By lower instance you mean the product?
+yes
+
+No I dont think we can do that at this poin... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 4:14 PM
+
+No I dont think we can do that at this point, since this is an investment exercise
+
+team can however give  a demo from Dev/QA by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/3 4:15 PM
+
+team can however give  a demo from Dev/QA
+
+ok by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/3 4:15 PM
+
+ok
+
+Hi Sonam , Vishal   by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/8 12:00 PM
+
+Hi Sonam, Vishal 
+
+good afternoon by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/8 12:00 PM
+
+good afternoon
+
+Can we walk Trupti through the use cases we... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/8 12:00 PM
+
+Can we walk Trupti through the use cases we have discussed and come up with the team?
+
+Hi Priyamvada , Very good afternoon!  Just... by Vishal Gautam Shah
+Vishal Gautam Shah
+7/8 12:01 PM
+
+Hi Priyamvada, Very good afternoon! 
+
+Just had call with Trupti and shared the deck with her
+
+
+👍
+1 Like reaction.
+
+oh thats great. What was her direction and ... by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/8 12:08 PM
+
+oh thats great. What was her direction and feedback?
+
+I had high level walk through and looks goo... by Trupti Palve
+Trupti Palve
+7/8 12:15 PM
+
+I had high level walk through and looks good. Few can be merged as well.We need to check ROI as well and time saver with the team
+
+
+👍
+2 Like reactions.
+2
+
+Begin quote, Priyamvada Vinit Palshikar, 7/... by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/8 12:29 PM
+
+Priyamvada Vinit Palshikar
+7/8/2026 12:00 PM
+Hi Sonam, Vishal
+Good afternoon Priyamvada Vinit Palshikar. Thanks Vishal Gautam Shah for sharing the deck with Trupti, do let me know if you need any other help.
+
+Hello  Priyamvada   Vinit   Palshikar : If ... by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/14 12:45 PM
+
+Hello Priyamvada Vinit Palshikar: If you have access to the paid version of the Lovable tool, would you mind sharing the credentials with me so I can get some hands-on experience using the application?
+
+Sonam , Vishal  can we have a quick call? by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/14 1:26 PM
+
+Sonam, Vishal can we have a quick call?
+
+Sure by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+7/14 1:41 PM
+
+Sure
+Sure, we can. by Vishal Gautam Shah
+Vishal Gautam Shah
+7/14 1:47 PM
+
+Sure, we can.
+
+calling both by Priyamvada Vinit Palshikar
+Priyamvada Vinit Palshikar
+7/14 1:48 PM
+
+calling both
+
+Hi  Chetan   Vijay   Barawkar   Divya   (Ka... by Vishal Gautam Shah
+Vishal Gautam Shah
+7/28 10:10 AM
+
+Hi Chetan Vijay Barawkar Divya (Kapadia) Fisher, Good morning!
+
+We wanted to explain you the prototypes we created for couple of use cases of Arbiter sports and take your feedback on the same. Can we connect around 11.30? Should not take more than 15-20 mins. 
+
+
+👍
+1 Like reaction.
+
+Vishal Gautam Shah added Sanjay Sharma and Yves Alphonso to the chat and shared all chat history.
+Chetan   Vijay   Barawkar   Divya   (Kapadi... by Vishal Gautam Shah
+Vishal Gautam Shah
+Friday 3:45 PM
+
+Chetan Vijay Barawkar Divya (Kapadia) Fisher, Good afternoon!
+
+We are planning to develop a small POC for one of the use case (in ARGO)- most probably related to reporting insights use case. Sanjay may need further details on what sort of parameters/attributes are required to develop that use case, request you to help him for the same. Sanjay  if you want to discuss use case/mockup in detail, you can ping me or sonam.
+
+
+👍
+1 Like reaction.
+
+Thanks Vishal  for adding team members.  D... by Sanjay Sharma
+Sanjay Sharma
+Monday 11:49 AM
+
+Thanks Vishal for adding team members. Divya, Chetan - Please determine the data objects (the entities and attributes) required for the POC work. Prepare/share some example prompts for some of the use cases.  
+
+
+👍
+1 Like reaction.
+
+Divya (Kapadia) Fisher added Shubham Pramod Bharambe to the chat and shared chat history from the past 32 days.
+Message by Sonam Kanhaiyalal Goyal, has an attachment.
+Sonam Kanhaiyalal Goyal
+Monday 12:42 PM
+
+Arbiter AI Use Case Identification.pptx
+
+
+
+
+👍
+1 Like reaction.
+
+Message by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+Monday 12:43 PM
+
+Vishal Gautam Shah
+7/30/2026 3:14 PM
+Below are the link of the same: 
+
+Arbiter Registration Reports · AI Insights
+Arbiter · Intelligent Official Assignment 
+
+Thank you! Sonam by Divya (Kapadia) Fisher
+Divya (Kapadia) Fisher
+Monday 12:43 PM
+
+Thank you! Sonam
+
+
+👍
+1 Like reaction.
+
+Please refer the Use case 3 | Registration ... by Sonam Kanhaiyalal Goyal
+Sonam Kanhaiyalal Goyal
+Monday 12:47 PM
+
+Please refer the Use case 3 | Registration Insights & Recommendations.
+
+
+👍
+1 Like reaction.
+
+Vishal  - we did discuss to finalize on one... by Sanjay Sharma
+Sanjay Sharma
+Monday 2:15 PM
+
+Vishal - we did discuss to finalize on one use case, can you recall which one?
+
+Begin quote, Sanjay Sharma, 8/3/2026 2:15 P... by Vishal Gautam Shah
+Vishal Gautam Shah
+Monday 2:16 PM
+
+Sanjay Sharma
+8/3/2026 2:15 PM
+Vishal - we did discuss to finalize on one use case, can you recall which one?
+Yes, Sonam has mentioned that only, which is related to Reporting insights.  Lovable link for the same is: Arbiter Registration Reports · AI Insights
+
+Url Preview for Arbiter Registration Reports · AI Insights
+Arbiter Registration Reports · AI Insights
+Arbiter Student Registration reporting with AI-powered insights and recommendations.
+
+arbiter-regi-insight.lovable.app
+we discussed to cover the use case which ha... by Sanjay Sharma
+Sanjay Sharma
+Monday 2:17 PM
+
+we discussed to cover the use case which has chat interface. We had chosen the use case involving Symantec search  
+
+Begin quote, Sanjay Sharma, 8/3/2026 2:17 P... by Vishal Gautam Shah
+Vishal Gautam Shah
+Monday 2:18 PM
+
+Sanjay Sharma
+8/3/2026 2:17 PM
+we discussed to cover the use case which has chat interface. We had chosen the use case involving Symantec search
+yes correct. So in the above link, when we click on Ask Arbiter AI button, that chat interface gets opened
+
+okay, thanks by Sanjay Sharma
+Sanjay Sharma
+Monday 2:20 PM
+
+okay, thanks
+
+
+👍
+1 Like reaction.
+
+Begin quote, Sanjay Sharma, 8/3/2026 11:49 ... by Shubham Pramod Bharambe, has an attachment.
+Shubham Pramod Bharambe
+Yesterday 12:39 PM
+
+Sanjay Sharma
+8/3/2026 11:49 AM
+Thanks Vishal for adding team members. Divya, Chetan - Please determine the data objects (the entities and attributes) required for the POC work. Prepare/share some example prompts for some of the use
+Hi Sanjay Sharma ,I've prepared the HTML for the POC with the datasets, attributes, and sample AI prompts. Please have a look when you get a chance, and please share your  feedback. If any additional use cases seem irrelevant, we can remove them. Thanks. (Note: for demographics & transfers sections prompt  need different fields and additional table. )  
+
+AI_PROMPTS_AND_DATASETS 2.html
+
+
+
+
+👍
+1 Like reaction.
+
+Hi Shubham , Divya  and team - please rev... by Sanjay Sharma, has an attachment.
+Sanjay Sharma
+10:49 AM
+
+Hi Shubham, Divya and team - please review the proposed datasets and the additional fields once and share your feedback or any suggested changes. 
+
+ 
+
+The current proposal uses 5 datasets:
+
+Registrations
+Payments
+Programs & Sections
+Participants / Demographics
+Transfers
+New fields added-
+
+registration_id
+participant_id
+payment_id
+transfer_id
+capacity
+Proposed IDs enable data relationships; capacity provides the factual context needed for the LLM to assess section demand and make capacity-related recommendations.
+
+Datasets.json
+
+
+
+
+👍
+2 Like reactions.
+2
+
+Sanjay Sharma added Ashish Kishor Joshi and Debashis Moharana to the chat and shared all chat history.
+Begin quote, Sanjay Sharma, 8/5/2026 10:49 ... by Shubham Pramod Bharambe, has an attachment.
+Shubham Pramod Bharambe
+1:46 PM
+
+Sanjay Sharma
+8/5/2026 10:49 AM
+Hi Shubham, Divya and team - please review the proposed datasets and the additional fields once and share your feedback or any suggested changes. The current proposal uses 5 datasets: • Registrati…
+Hi Sanjay, It looks good to me. I'm also adding an HTML document that provides additional context for the status values, section capacity mapping, and related notes, specifically for keys of json such as document, payment_method, and the report_reg table. Thanks. 
+
+context_for_status_and_notes 1 1.html
+
+
+
+
+👍
+1 Like reaction.
+
+has context menu
+
+
+
+
+
+I have added you both on Arbiter channel, please go through the chat to understand the use case we are trying to prepare 
+ 
+Ashish, request you to provide Debasish MCP sample file 
+ 
+and explain him what is required to do
+ 
+It is possible to put your .json file now, just follow below reference to call your json files
+ 
+Don't refer this way
+with open("config.json") as f:
+ 
+Refer something like this to call the relative path:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(BASE_DIR, "config.json")) as f:
+    config = json.load(f)
+ 
+with open(os.path.join(BASE_DIR, "rules.json")) as f:
+    rules = json.load(f)
+ 
+ 
+Debashis - have you got understanding on MCP?
+ 
+Please generate JSON for the mock data for Arbitor use case 
+ 
+Let's generate 30 rows for each datasets 
+ 

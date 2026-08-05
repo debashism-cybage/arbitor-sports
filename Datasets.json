@@ -1,0 +1,58 @@
+{
+  "registrations": [
+    {
+      "registration_id": "REG-10045",
+      "participant_id": "P-2045",
+      "program_id": "PRG-101",
+      "section_ids": ["SEC-101-SAT-AM"],
+      "registration_date": "2026-07-20",
+      "registration_state": "Active",
+      "approval": "Pending",
+      "document": "Incomplete",
+      "registrant": "Alex Johnson"
+    }
+  ],
+
+  "payments": [
+    {
+      "payment_id": "PAY-78021",
+      "registration_id": "REG-10045",
+      "payment_state": "Partial",
+      "amount_paid": 100.00,
+      "balance": 150.00,
+      "total": 250.00,
+      "payment_method": "Online"
+    }
+  ],
+
+  "programs_sections": [
+    {
+      "program_id": "PRG-101",
+      "section_ids": ["SEC-101-SAT-AM"],
+      "section_full_ids": [],
+      "section_names": ["Robotics - Saturday Morning"],
+      "capacity": 30
+    }
+  ],
+
+  "participants": [
+    {
+      "participant_id": "P-2045",
+      "registrant": "Alex Johnson",
+      "participant_age": 11,
+      "gender": "Female",
+      "grade": "6",
+      "school_name": "Lincoln Elementary"
+    }
+  ],
+
+  "transfers": [
+    {
+      "transfer_id": "TR-45012",
+      "request_date": "2026-07-27",
+      "reason": "Scheduling conflict",
+      "previous_school": "Lincoln Elementary",
+      "transfer_status": "Pending"
+    }
+  ]
+}
