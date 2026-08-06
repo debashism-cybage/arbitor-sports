@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Prompts & Dataset Reference</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      padding: 32px 16px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #1a1a2e;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 0.92rem;
+      margin-bottom: 28px;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1100px;
+      font-size: 0.875rem;
+    }
+
+    thead {
+      background: linear-gradient(135deg, #2d6cdf 0%, #1a3e8a 100%);
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    thead th {
+      padding: 14px 16px;
+      text-align: left;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      border-right: 1px solid rgba(255,255,255,0.15);
+    }
+
+    thead th:last-child { border-right: none; }
+
+    tbody tr {
+      border-bottom: 1px solid #e8eaf0;
+      transition: background 0.15s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody tr:hover { background: #f0f5ff; }
+
+    tbody tr:nth-child(even) { background: #f7f9fc; }
+    tbody tr:nth-child(even):hover { background: #e8effd; }
+
+    td {
+      padding: 12px 16px;
+      vertical-align: top;
+      border-right: 1px solid #e8eaf0;
+      line-height: 1.55;
+    }
+
+    td:last-child { border-right: none; }
+
+    /* Column widths */
+    col.c1 { width: 18%; }
+    col.c2 { width: 12%; }
+    col.c3 { width: 16%; }
+    col.c4 { width: 14%; }
+    col.c5 { width: 16%; }
+    col.c6 { width: 24%; }
+
+    /* AI Prompt column */
+    td:nth-child(1) {
+      font-weight: 600;
+      color: #1a3e8a;
+    }
+
+    /* Dataset / Table column */
+    td:nth-child(2) code {
+      background: #eef2ff;
+      color: #3730a3;
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 0.8rem;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      white-space: nowrap;
+    }
+
+    /* Key Attributes column */
+    td:nth-child(3) {
+      font-size: 0.8rem;
+      color: #374151;
+    }
+
+    td:nth-child(3) code {
+      background: #f0fdf4;
+      color: #166534;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 0.76rem;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+
+    /* SQL Retrieves column */
+    td:nth-child(4) {
+      color: #374151;
+      font-size: 0.84rem;
+    }
+
+    /* Why SQL Alone Isn't Enough */
+    td:nth-child(5) {
+      color: #6b2d00;
+      font-size: 0.82rem;
+      background: #fffbf5;
+    }
+
+    /* Example AI Response */
+    td:nth-child(6) {
+      font-style: italic;
+      color: #1e4d2b;
+      font-size: 0.82rem;
+      background: #f0fdf4;
+    }
+
+    /* Category badge rows */
+    .category-row td {
+      background: linear-gradient(90deg, #e0e7ff 0%, #f5f3ff 100%);
+      font-weight: 700;
+      font-size: 0.78rem;
+      color: #3730a3;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 7px 16px;
+      border-bottom: 2px solid #c7d2fe;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 1.3rem; }
+      td, thead th { padding: 10px 10px; font-size: 0.78rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AI Prompts &amp; Dataset Reference</h1>
+  <p class="subtitle">How AI augments SQL-driven registration data with context, patterns, and recommendations</p>
+
+  <div class="table-wrapper">
+    <table>
+      <colgroup>
+        <col class="c1" /><col class="c2" /><col class="c3" />
+        <col class="c4" /><col class="c5" /><col class="c6" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>AI Prompt</th>
+          <th>Dataset / Table</th>
+          <th>Key Attributes</th>
+          <th>SQL Retrieves</th>
+          <th>Why SQL Alone Isn't Enough</th>
+          <th>Example AI Response</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- OPERATIONS & ATTENTION -->
+        <tr class="category-row"><td colspan="6">Operations &amp; Attention</td></tr>
+
+        <tr>
+          <td>Which registrations require attention?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registration_state</code>, <code>approval</code>, <code>payment_state</code>, <code>registration_date</code></td>
+          <td>Pending, unpaid, or correction-required registrations</td>
+          <td>SQL returns matching records but cannot prioritize them by urgency or explain why they need attention. AI groups issues, ranks urgency, and suggests actions.</td>
+          <td>"15 registrations require attention. Five have been awaiting approval for over a week, four have unpaid balances, and six require additional documents. Prioritize the oldest pending approvals first."</td>
+        </tr>
+
+        <tr>
+          <td>Why are approvals pending?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>approval</code>, <code>registration_state</code>, <code>document</code>, <code>registration_date</code></td>
+          <td>All registrations with pending approval</td>
+          <td>SQL shows pending records but cannot identify recurring causes or summarize patterns across registrations.</td>
+          <td>"Most pending approvals are associated with missing documentation and recently submitted applications. A smaller number are awaiting payment verification."</td>
+        </tr>
+
+        <tr>
+          <td>Which participants need follow-up?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registrant</code>, <code>approval</code>, <code>payment_state</code>, <code>registration_state</code></td>
+          <td>Participants matching follow-up criteria</td>
+          <td>SQL lists participants but cannot categorize follow-up reasons or prioritize outreach.</td>
+          <td>"Nine participants require follow-up. Four need payment reminders, three must upload missing documents, and two have incomplete registrations."</td>
+        </tr>
+
+        <tr>
+          <td>Identify registrations at risk of cancellation.</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>payment_state</code>, <code>approval</code>, <code>registration_state</code></td>
+          <td>Registrations matching risk conditions</td>
+          <td>SQL finds qualifying registrations but cannot estimate overall risk or explain contributing factors.</td>
+          <td>"Registrations with pending payments older than two weeks and incomplete documentation appear most likely to be cancelled if no action is taken."</td>
+        </tr>
+
+        <tr>
+          <td>What operational issues should administrators address?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>approval</code>, <code>payment_state</code>, <code>registration_state</code></td>
+          <td>Operational metrics</td>
+          <td>SQL reports metrics but cannot identify operational priorities across multiple indicators.</td>
+          <td>"Approval delays and unpaid balances are increasing in two programs. Reducing approval turnaround time and sending automated payment reminders should be prioritized."</td>
+        </tr>
+
+        <!-- PAYMENTS -->
+        <tr class="category-row"><td colspan="6">Payments</td></tr>
+
+        <tr>
+          <td>Show outstanding payments.</td>
+          <td><code>main_report_regs</code> + Payment Fields</td>
+          <td><code>payment_state</code>, <code>payments.balance</code>, <code>payments.amount_paid</code>, <code>payments.total</code></td>
+          <td>Registrations with unpaid balances</td>
+          <td>SQL lists unpaid accounts but cannot explain overall financial health or identify payment trends.</td>
+          <td>"There are 38 outstanding payments totaling $9,800. Most balances belong to two programs, and 70% are less than 14 days overdue."</td>
+        </tr>
+
+        <tr>
+          <td>Summarize payment behavior.</td>
+          <td>Payment Fields</td>
+          <td><code>payments.amount_paid</code>, <code>payments.balance</code>, <code>payments.payment_method</code></td>
+          <td>Payment transactions</td>
+          <td>SQL provides payment data but cannot identify behavioral trends or financial insights.</td>
+          <td>"Most families pay online within three days of registration, while installment payments are becoming increasingly common."</td>
+        </tr>
+
+        <!-- CAPACITY & SECTIONS -->
+        <tr class="category-row"><td colspan="6">Capacity &amp; Sections</td></tr>
+
+        <tr>
+          <td>Which section is nearing capacity?</td>
+          <td><code>main_report_regs</code> + <code>sections</code></td>
+          <td><code>section_ids</code>, <code>section_full_ids</code>, <code>sections.section_names</code></td>
+          <td>Registration count per section</td>
+          <td>SQL counts registrations but cannot determine which sections are at risk without comparing capacity and highlighting urgency.</td>
+          <td>"Robotics - Saturday Morning has reached approximately 90% capacity and is likely to become full within the next few registrations."</td>
+        </tr>
+
+        <!-- TRENDS & ANALYTICS -->
+        <tr class="category-row"><td colspan="6">Trends &amp; Analytics</td></tr>
+
+        <tr>
+          <td>Summarize today's registration activity.</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registration_date</code>, <code>registration_state</code>, <code>approval</code>, <code>payment_state</code>, <code>program_id</code></td>
+          <td>Today's registration records</td>
+          <td>SQL returns today's data but cannot create an executive summary highlighting important events.</td>
+          <td>"Today, 54 registrations were received. Forty-six were completed successfully, five are awaiting approval, and three remain unpaid. Robotics had the highest enrollment."</td>
+        </tr>
+
+        <tr>
+          <td>What registration trends are emerging?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registration_date</code>, <code>program_id</code>, <code>registration_state</code></td>
+          <td>Registration counts over time</td>
+          <td>SQL generates trend data but cannot explain growth patterns or their significance.</td>
+          <td>"Registrations have increased steadily over the past three months, with Robotics growing 28% faster than other programs."</td>
+        </tr>
+
+        <tr>
+          <td>Which programs are becoming more popular?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>program_id</code>, <code>registration_date</code></td>
+          <td>Registrations grouped by program</td>
+          <td>SQL ranks programs but cannot explain popularity changes or emerging demand.</td>
+          <td>"Robotics and Coding continue to gain popularity, while Arts registrations have remained stable over the last quarter."</td>
+        </tr>
+
+        <tr>
+          <td>Compare this month with last month.</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registration_date</code>, <code>program_id</code>, <code>payment_state</code></td>
+          <td>Monthly aggregated statistics</td>
+          <td>SQL compares totals but cannot explain what changed or why it matters.</td>
+          <td>"Registrations increased by 15% compared to last month, mainly driven by Robotics and Weekend Programs. Payment completion also improved."</td>
+        </tr>
+
+        <tr>
+          <td>Highlight unusual registration activity.</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>registration_date</code>, <code>program_id</code>, <code>registration_state</code></td>
+          <td>Historical registration activity</td>
+          <td>SQL identifies counts but cannot recognize anomalies or explain why they are unusual.</td>
+          <td>"Registration volume dropped significantly during the second week of April despite normal seasonal demand, suggesting an external event or system issue."</td>
+        </tr>
+
+        <tr>
+          <td>Forecast registration demand.</td>
+          <td>Historical Registration Data</td>
+          <td><code>registration_date</code>, <code>program_id</code></td>
+          <td>Historical registration trends</td>
+          <td>SQL reports historical data but cannot estimate future demand or provide predictions.</td>
+          <td>"Based on recent growth patterns, Robotics registrations are expected to increase by approximately 18% next month, suggesting that additional sections may be needed."</td>
+        </tr>
+
+        <!-- PROGRAMS -->
+        <tr class="category-row"><td colspan="6">Programs</td></tr>
+
+        <tr>
+          <td>Which programs need attention?</td>
+          <td><code>main_report_regs</code></td>
+          <td><code>program_id</code>, <code>registration_state</code>, <code>payment_state</code></td>
+          <td>Program-level registration statistics</td>
+          <td>SQL shows numbers but cannot identify underperforming programs or recommend actions.</td>
+          <td>"Swimming registrations have declined for three consecutive months and have the highest unpaid balance rate, indicating a need for promotional efforts."</td>
+        </tr>
+
+        <!-- DEMOGRAPHICS -->
+        <tr class="category-row"><td colspan="6">Demographics &amp; Schools</td></tr>
+
+        <tr>
+          <td>Which schools contribute the most registrations?</td>
+          <td>Custom Report Fields</td>
+          <td><code>blocks.participant-information_education.school_name</code></td>
+          <td>Registrations grouped by school</td>
+          <td>SQL ranks schools but cannot summarize participation patterns.</td>
+          <td>"Five schools contribute nearly 65% of all registrations, with Lincoln Elementary showing the largest year-over-year growth."</td>
+        </tr>
+
+        <tr>
+          <td>Describe participant demographics.</td>
+          <td>Custom Report Fields</td>
+          <td><code>participant_age</code>, <code>gender</code>, <code>grade</code>, <code>school_name</code></td>
+          <td>Demographic distribution</td>
+          <td>SQL aggregates demographic data but cannot describe meaningful patterns or changes.</td>
+          <td>"Most participants are between ages 8 and 12, with female participation increasing steadily in STEM programs."</td>
+        </tr>
+
+        <!-- TRANSFERS -->
+        <tr class="category-row"><td colspan="6">Transfers</td></tr>
+
+        <tr>
+          <td>What are the common transfer patterns?</td>
+          <td>Transfer Report</td>
+          <td><code>reason</code>, <code>previous_school</code>, <code>transfer_status</code>, <code>request_date</code></td>
+          <td>Transfer records</td>
+          <td>SQL lists transfers but cannot summarize recurring reasons or trends.</td>
+          <td>"Most transfer requests occur before the academic term begins, with relocation and scheduling conflicts being the most common reasons."</td>
+        </tr>
+
+        <tr>
+          <td>Which transfer requests should be prioritized?</td>
+          <td>Transfer Report</td>
+          <td><code>transfer_status</code>, <code>request_date</code>, <code>reason</code></td>
+          <td>Pending transfer requests</td>
+          <td>SQL identifies pending requests but cannot prioritize them based on age or urgency.</td>
+          <td>"Transfer requests awaiting approval for more than five business days should be reviewed first, particularly those with upcoming enrollment dates."</td>
+        </tr>
+
+        <!-- EXECUTIVE SUMMARIES -->
+        <tr class="category-row"><td colspan="6">Executive Summaries &amp; Recommendations</td></tr>
+
+        <tr>
+          <td>Generate an executive summary of registrations.</td>
+          <td><code>main_report_regs</code></td>
+          <td>Registration, payment, approval, program fields</td>
+          <td>Overall report data</td>
+          <td>SQL provides statistics but cannot produce a concise management summary.</td>
+          <td>"Overall registrations remain healthy, payments are improving, and approval turnaround has decreased. Weekend programs continue to experience the highest demand."</td>
+        </tr>
+
+        <tr>
+          <td>What recommendations would improve registrations?</td>
+          <td><code>main_report_regs</code></td>
+          <td>Registration, payment, approval, section data</td>
+          <td>Current operational data</td>
+          <td>SQL cannot generate recommendations or suggest improvements.</td>
+          <td>"Increase capacity for high-demand weekend programs, automate payment reminders, and simplify approval workflows to improve conversion."</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
